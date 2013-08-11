@@ -1,0 +1,65 @@
+Matrix testing program starts
+Captain Picard V00123456
+Summer 2012 - CSC 230 Assignment 1
+
+
+
+*** MATRIX  1 ***  Size =  3 x  4
+         1      2      3      4
+        -5     -6      7      8
+         9     10    -11     12
+
+    Transpose:  Size =  4 x  3
+         1     -5      9
+         2     -6     10
+         3      7    -11
+         4      8     12
+
+    ==>Not Square - no testing
+
+
+*** MATRIX  2 ***  Size =  3 x  3
+         3      2     -1
+         2     -5     17
+        -1     17      4
+
+    Transpose:  Size =  3 x  3
+         3      2     -1
+         2     -5     17
+        -1     17      4
+
+    ==>Symmetric
+    ==>Not Skew-Symmetric
+    ==>Not Orthogonal
+
+
+*** MATRIX  3 ***  Size =  3 x  3
+         0      6      4
+        -6      0      5
+        -4     -5      0
+
+    Transpose:  Size =  3 x  3
+         0     -6     -4
+         6      0     -5
+         4      5      0
+
+    ==>Not Symmetric
+    ==>Skew-Symmetric
+    ==>Not Orthogonal
+
+
+*** MATRIX  4 ***  Size =  3 x  3
+        -1      0      0
+         0     -1      0
+         0      0     -1
+
+    Transpose:  Size =  3 x  3
+        -1      0      0
+         0     -1      0
+         0      0     -1
+
+    ==>Symmetric
+    ==>Not Skew-Symmetric
+    ==>Orthogonal
+
+All done - Bye
